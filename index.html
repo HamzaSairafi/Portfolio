@@ -3,105 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio website</title>
+    <meta name="description" content="Hamza Sairafi - Software Engineering Student & Web Developer">
+    <title>Hamza Sairafi - Portfolio</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
 <header>
-<div class="container bar">
-    <a class="brand" href="#top">
-        <div class="logo"></div>
-        <span class="title">HAMZA · DEV</span>
-    </a>
-    <nav>
-        <a href="#about">About me</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact me</a>
-</nav>
-</div>
+    <div class="container">
+        <div class="bar">
+            <a class="brand" href="#top">
+                <span class="title">HAMZA.dev</span>
+            </a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </div>
 </header>
 
 <main id="top" class="container stack">
 
     <section class="intro">
-        <h1 id="intro-title">hi, Hamza here</h1>
-        <p>I’m <strong>Hamza Sairafi</strong>. I creat stuff sometimes.</p>
-        <div class="skills">
-            <span class="skill">HTML · CSS · JS</span>
-            <span class="skill">Java</span>
-            <span class="skill">SQL</span>
-        </div>
+        <h1>hi, Hamza here</h1>
+        <p>I'm <strong>Hamza Sairafi</strong>. I create stuff sometimes.</p>
     </section>
 
     <section id="about">
-        <h2 id="about-title">About</h2>
+        <h2>About</h2>
         <div class="card">
-            <p> am  a software engineer currently taking my bachelor degree from UQU in computer science. At the moment i am interested in becoming a full stack web developer, but in the future i am open to learning more about Ai and machine learning </p>
+            <p>I am a software engineer currently taking my bachelor's degree from UQU in computer science. At the moment I am interested in becoming a full-stack web developer, but in the future I am open to learning more about AI and machine learning.</p>
         </div>
     </section>
 
     <section id="projects">
-        <h2 id="projects-title">Projects</h2>
-        <div class="grid"><!--here is the project cards-->
-        <article class="card col-4">
-            <span class="tag orange">Video Game</span>
-            <h3>Making The Frog Knight Laugh</h3>
-            <p>a result of a game jam by the theme of "make me laugh" using unity</p>
-            <a class="btn" href="https://thefrogknight.itch.io/making-the-frog-knight-laugh" target="_blank">View</a>
-        </article>
-        
-        <article class="card col-4">
-            <span class="tag teal">Video Game</span>
-            <h3>The bubble chemis</h3>
-            <p>Another result of a game jame a game devolped in 48 hourse using unity following the theme "Bubble"</p>
-            <a class="btn" href="https://thefrogknight.itch.io/bublle-chi" target="_blank" >View</a><!--Add link-->
-        </article>
-    </div>
-    </section>
+        <h2>Projects</h2>
+        <div class="grid">
+            <article class="card">
+                <span class="tag orange">Video Game</span>
+                <h3>Making The Frog Knight Laugh</h3>
+                <p>A result of a game jam by the theme of "make me laugh" using Unity. Created in 48 hours with a team during Global Game Jam.</p>
+                <a class="btn" href="https://thefrogknight.itch.io/making-the-frog-knight-laugh" target="_blank" rel="noopener">View Project →</a>
+            </article>
+            
+            <article class="card">
+                <span class="tag teal">Video Game</span>
+                <h3>The Bubble Chemist</h3>
+                <p>Another result of a game jam - a game developed in 48 hours using Unity following the theme "Bubble".</p>
+                <a class="btn" href="https://thefrogknight.itch.io/bublle-chi" target="_blank" rel="noopener">View Project →</a>
+            </article>
 
-    <section id="experience">
-
-        <h2 id="projects-title">Experience</h2>
-
-        <div class="grid"><!--here is the Experience cards-->
-        <article class="card col-4">
-            <span class="tag teal">27 jan, 2024</span>
-            <h3>Global Game Jam</h3>
-            <p>I joined the Global Game Jam with a team to create a game based on the theme “Make Me Laugh” in 48 hours result is "Making The Frog Knight Laugh" you can check it on my projects section.</p>
-        </article>
-        
-        <article class="card col-4">
-            <span class="tag orange">Video Game</span>
-            <h3>Global Game Jam</h3>
-            <p>I joined the Global Game Jam with a team to create a game based on the theme “Bubble” in 48 hours  result is "Bubble chemist" you can check it on my projects section.</p>
-        </article>
-        
-    </div>
-
-        <h2 id="experience-title">What I worked with before.</h2>
-        <div class="experience">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Java</li>
-            <li>SQL</li>
+            <article class="card">
+                <span class="tag olive">Web</span>
+                <h3>Portfolio Website</h3>
+                <p>A retro-styled portfolio website built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+                <a class="btn" href="#top">You're Here! →</a>
+            </article>
         </div>
     </section>
 
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="grid">
+            <article class="card">
+                <span class="tag teal">Jan 27, 2024</span>
+                <h3>Global Game Jam 2024</h3>
+                <p>I joined the Global Game Jam with a team to create a game based on the theme "Make Me Laugh" in 48 hours. The result is "Making The Frog Knight Laugh" - you can check it in my projects section.</p>
+            </article>
+            
+            <article class="card">
+                <span class="tag orange">Jan 26, 2025</span>
+                <h3>Global Game Jam 2025</h3>
+                <p>I joined the Global Game Jam with a team to create a game based on the theme "Bubble" in 48 hours. The result is "Bubble Chemist" - you can check it in my projects section.</p>
+            </article>
+            
+            <article class="card">
+                <span class="tag olive">Current</span>
+                <h3>Computer Science Student</h3>
+                <p>Currently pursuing my bachelor's degree in Computer Science at UQU, focusing on web development and software engineering principles.</p>
+            </article>
+        </div>
+
+        <h2 style="margin-top: 3rem;">What I Work With</h2>
+        <ul class="experience">
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Unity</li>
+            <li>C#</li>
+        </ul>
+    </section>
+
     <section id="contact">
-        <h2 id="contact-title">Contact</h2>
+        <h2>Get In Touch</h2>
         <div class="card">
-            <p>Open to internships and collabs.</p>
+            <p><strong>Open to internships and collaborations.</strong></p>
+            <p>Feel free to reach out if you want to work together or just chat about tech!</p>
             <div class="links">
-                <a href="mailto:hamzasairafi05@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://github.com/HamzaSairafi" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://linkedin.com/in/sairafihamza" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+                <a href="mailto:hamzasairafi05@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </a>
+                <a href="https://github.com/HamzaSairafi" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/sairafihamza" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="#top">
+                    <i class="fa-solid fa-arrow-up"></i> Back to Top
+                </a>
             </div>
         </div>
     </section>
@@ -109,10 +132,28 @@
 
 <footer>
     <div class="container">
-        <small>© <span id="y"></span> Hamza Sairafi. Built with HTML & CSS.</small>
+        <small>© <span id="year"></span> Hamza Sairafi. Built with HTML & CSS.</small>
     </div>
 </footer>
 
+<script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
     
 </body>
 </html>
