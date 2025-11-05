@@ -1,4 +1,4 @@
-#🕹️ Retro Portfolio
+# 🕹️ Retro Portfolio
 
 Welcome to my Retro-Style Portfolio!
 I built this website to showcase my projects and have some fun experimenting with old-school design vibes.
